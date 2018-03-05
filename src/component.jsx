@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const First = props => (
+export default props => (
     <h1>First component</h1>
 )
 

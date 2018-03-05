@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {First, Second} from './component'
+import First, {Second} from './component'
 
 ReactDOM.render(
     <div>
