@@ -1,10 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import First, {Second} from './component'
+import MartinsFamily from './martinsFamily'
 
 ReactDOM.render(
-    <div>
-        <First />
-        <Second />
-    </div>
+    <MartinsFamily />
 , document.getElementById('app'))
