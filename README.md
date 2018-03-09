@@ -16,5 +16,5 @@ To run: `$ npm run dev`
  - **ex08:** Passing properties to a child component
  - **ex09:** Using multiple children member in a component
  - **ex10:** Using React component as class
- - **ex11:** ...
+ - **ex11:** The Counter Component (with state)
  - **ex12:** ...
