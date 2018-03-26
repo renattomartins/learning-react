@@ -16,7 +16,7 @@ class Field extends Component {
         return (
             <div>
                 <label>{this.state.value}</label><br />
-                <input value={this.state.value} />
+                <input value={this.state.value || ''} />
             </div>
         )
     }
