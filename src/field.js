@@ -4,7 +4,7 @@ class Field extends Component {
 
     constructor(props) {
         super(props)
-        this.state = { value: undefined }
+        this.state = { value: props.initialValue }
         this.handleChange = this.handleChange.bind(this)
     }
 
@@ -16,7 +16,7 @@ class Field extends Component {
         return (
             <div>
                 <label>{this.state.value}</label><br />
-                <input value={this.state.value} />
+                <input onChange={this.handleChange} value={this.state.value} />
             </div>
         )
     }
