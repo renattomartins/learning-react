@@ -18,3 +18,4 @@ To run: `$ npm run dev`
  - **ex10:** Using React component as class
  - **ex11:** The Counter component (with state)
  - **ex12:** Controlled and Uncontrolled components
+ - **ex13:** Controlled components with Redux
