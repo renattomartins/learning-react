@@ -19,3 +19,4 @@ To run: `$ npm run dev`
  - **ex11:** The Counter component (with state)
  - **ex12:** Controlled and Uncontrolled components
  - **ex13:** Controlled components with Redux
+ - **ex14:** A Counter Component with Redux
