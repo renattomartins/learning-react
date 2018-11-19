@@ -2,13 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { combineReducers, createStore } from 'redux'
 import { Provider } from 'react-redux'
+import counterReducer from './counterReducer'
+import Counter from './counter'
 
 const reducers = combineReducers({
-    nothing: "temp"
+    counter: counterReducer
 })
 
 ReactDOM.render(
     <Provider store={createStore(reducers)}>
-        <div>Ok</div>
+        <Counter />
     </Provider>
 , document.getElementById('app'))
